@@ -1,0 +1,7 @@
+name: Automatization Workflow
+on: workflow_dispatch
+jobs:
+  sail: 
+    runs-on: windows-latest
+      - name: print to console
+        run: echo Hello!
